@@ -82,6 +82,11 @@ class MainActivity : AppCompatActivity() {
 
         // Make sure the correct dessert is showing
         binding.dessertButton.setImageResource(currentDessert.imageId)
+
+    }
+    override fun onStart() {
+        super.onStart()
+        Log.i("MainActivity", "onStart Called")
     }
 
     /**
@@ -143,10 +148,7 @@ class MainActivity : AppCompatActivity() {
         menuInflater.inflate(R.menu.main_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
-    override fun onStart() {
-        super.onStart()
-        Log.i("MainActivity", "onStart Called")
-    }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
