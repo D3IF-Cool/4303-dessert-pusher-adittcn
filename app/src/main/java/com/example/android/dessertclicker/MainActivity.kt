@@ -28,6 +28,7 @@ import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
 import timber.log.Timber
 
+//key
 const val KEY_REVENUE = "revenue_key"
 const val KEY_DESSERT_SOLD = "dessert_sold_key"
 
@@ -38,7 +39,6 @@ class MainActivity : AppCompatActivity() {
 
     // Contains all the views
     private lateinit var dessertTimer: DessertTimer
-
     private lateinit var binding: ActivityMainBinding
 
     /** Dessert Data **/
@@ -73,10 +73,6 @@ class MainActivity : AppCompatActivity() {
 
         Timber.i("onCreate called")
 
-
-
-
-
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
@@ -106,7 +102,6 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         Timber.i("onStart Called")
-
 
     }
     override fun onResume() {
