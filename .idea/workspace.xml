@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="MainActivity" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="desserttimer" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -20,7 +20,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84c3ce10-8fbd-403a-83da-b9f0f25d0391" name="Default Changelist" comment="3.2.Menggunakan Timber untuk Logging">
+    <list default="true" id="84c3ce10-8fbd-403a-83da-b9f0f25d0391" name="Default Changelist" comment="3.3.Menggunakan Timer pada Lifecycle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" afterDir="false" />
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616416539006</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3.3.Menggunakan Timer pada Lifecycle">
+      <created>1616417605352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616417605352</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +185,8 @@
     <MESSAGE value="initiak commit" />
     <MESSAGE value="3.1.Mempelajari method onCreate dan Logging" />
     <MESSAGE value="3.2.Menggunakan Timber untuk Logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.2.Menggunakan Timber untuk Logging" />
+    <MESSAGE value="3.3.Menggunakan Timer pada Lifecycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.3.Menggunakan Timer pada Lifecycle" />
   </component>
   <component name="WindowStateProjectService">
     <state x="158" y="86" key="#PSD" timestamp="1616407938460">
@@ -193,26 +201,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="432" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1616415849041" />
-    <state width="1220" height="472" key="GridCell.Tab.0.bottom" timestamp="1616416437081">
+    <state width="1220" height="472" key="GridCell.Tab.0.bottom" timestamp="1616417983734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1220" height="472" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1616416437081" />
-    <state width="1220" height="472" key="GridCell.Tab.0.center" timestamp="1616416437081">
+    <state width="1220" height="472" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1616417983734" />
+    <state width="1220" height="472" key="GridCell.Tab.0.center" timestamp="1616417983734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1220" height="472" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1616416437081" />
-    <state width="1220" height="472" key="GridCell.Tab.0.left" timestamp="1616416437080">
+    <state width="1220" height="472" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1616417983734" />
+    <state width="1220" height="472" key="GridCell.Tab.0.left" timestamp="1616417983734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1220" height="472" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1616416437080" />
-    <state width="1220" height="472" key="GridCell.Tab.0.right" timestamp="1616416437081">
+    <state width="1220" height="472" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1616417983734" />
+    <state width="1220" height="472" key="GridCell.Tab.0.right" timestamp="1616417983734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1220" height="472" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1616416437081" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1616416546974">
+    <state width="1220" height="472" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1616417983734" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1616417624219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1616416546974" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1616417624219" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1616407854724">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
